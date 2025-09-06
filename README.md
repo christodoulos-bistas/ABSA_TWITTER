@@ -1,1 +1,3 @@
 # ABSA_TWITTER
+This study explores Aspect-Based Sentiment Analysis (ABSA) on Twitter data. The dataset includes four sentiment categories: Irrelevant, Negative, Neutral, and Positive. The methodology involves text preprocessing, the application of classical models (TF-IDF + Logistic Regression, SVM, Naïve Bayes), as well as deep learning models (DistilBERT, BiLSTM).
+The results show that transformer-based models perform significantly better than traditional approaches, while BiLSTM remains competitive. Aspect extraction was achieved using rule-based and syntactic dependency methods, with each aspect assigned a sentiment prediction. Error analysis highlights challenges such as sarcasm, ambiguous tweets, and class imbalance.
